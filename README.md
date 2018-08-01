@@ -1,17 +1,13 @@
-## Hourly News
-Plays the latest news report
+## Planet Money Podcast
+Plays the Planet Money Podcast
 
 ## Description 
-Plays the latest news from a configurable RSS based audio feed.  
-By default the NPR hourly news broadcast is used, but you can chose
-from other news feeds including the BBC, AP, CBC.ca, CNN,
-PBS or Fox.  See the setting at [home.mycroft.ai](https://home.mycroft.ai/#/skill).
+Plays the latest episode of planet money from a RSS based audio feed.  
 
 ## Examples 
-* "Play the news"
-* "Tell me the news"
-* "What's the latest news"
+* "Play Planet Money"
+* "Play Planet money podcast"
 
 ## Credits 
-Mycroft AI
+Mycroft AI, Parker Seaman
 
