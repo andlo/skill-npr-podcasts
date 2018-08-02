@@ -27,9 +27,9 @@ except:
     AudioService = None
 
 
-class NewsSkill(MycroftSkill):
+class PodcastSkill(MycroftSkill):
     def __init__(self):
-        super(NewsSkill, self).__init__(name="NewsSkill")
+        super(PodcastSkill, self).__init__(name="PodcastSkill")
         self.process = None
         self.audioservice = None
 
@@ -53,7 +53,7 @@ class NewsSkill(MycroftSkill):
 
         return url_rss
 
-    @intent_handler(IntentBuilder("").require("Play").require("News"))
+    @intent_handler(IntentBuilder("").require("Play").require("Podcast"))
     def handle_intent(self, message):
         try:
             data = feedparser.parse(self.url_rss)
