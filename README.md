@@ -1,5 +1,5 @@
-## Planet Money Podcast
-Plays the Planet Money Podcast
+## NPR Podcasts
+Plays the NPR podcasts. Currently the only one supported is Planet Money
 
 ## Description 
 Plays the latest episode of planet money from a RSS based audio feed.  
