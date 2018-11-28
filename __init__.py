@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import feedparser
-from os.path import dirname
+# from os.path import dirname
 import re
 
 from adapt.intent import IntentBuilder
@@ -22,7 +22,7 @@ from mycroft.audio import wait_while_speaking
 from mycroft.util.log import LOG
 try:
     from mycroft.skills.audioservice import AudioService
-except:
+except Exception:
     from mycroft.util import play_mp3
     AudioService = None
 
@@ -85,4 +85,4 @@ class PodcastSkill(MycroftSkill):
 
 
 def create_skill():
-    return NewsSkill()
+    return PodcastSkill()
